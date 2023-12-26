@@ -1,0 +1,20 @@
+apiVersion: ENC[AES256_GCM,data:UtU=,iv:MwL8hkXv633vQ7iIy5OJuvj3jsJ1BZAjRGc6a4pQENE=,tag:9Srq2973E+u0d54xA+B2zQ==,type:str]
+kind: ENC[AES256_GCM,data:jCkr2cQf,iv:LYVRJ06pYjkDDMYgWYkZijtfSBTWJRvaoXpKz+TPo9o=,tag:dFAfVhczsCC7adKK1ZwjrA==,type:str]
+metadata:
+    name: ENC[AES256_GCM,data:sbwbLtV09Sl2JXxXX5z5vqrghqGrww==,iv:ZUHkdVR4rflCSxQK5IYOzCCfmKc/KzO/cNcUhqaeFc8=,tag:UsiGSA47tuetBq3glZ4QrA==,type:str]
+data:
+    password: ENC[AES256_GCM,data:nBj0jyg0OwqDjxrE,iv:85UFrHIpG/75t9K0tSMdW7/pESEhh4t81+40YR+ijaw=,tag:z5iZf1yhLq3xWB17kO1jMQ==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/dot-20231226171145/locations/global/keyRings/sops-demo/cryptoKeys/sops-demo-key
+          created_at: "2023-12-26T16:16:27Z"
+          enc: CiQApVw5NS4tOoG9mL6FZLJuFFtQkt6pOc2IMVTXcidxKoHl1aYSSQAmYzJWNVBN8cUth9lGAKQs44v2PTrai9v4tf14BSiu52Voc37OR6POPbQkNyZfWd1RyAi42Rx9BpYTs6jMf2YKcubeAi4iw04=
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2023-12-26T16:16:28Z"
+    mac: ENC[AES256_GCM,data:tkAwTIrmXdjviMKZVWkVVYbIA7Uv1VMrHSInG5tDF2Rsj4W5zh8jQkjEnhej7S+KJ2+BlGcV8bdv29bu+5u3ZYp8HewqBUVQfdurFG+tD/ntVjhbhgAeYk0Std1GVQlpyWedW40Osp9o0KmmC3kIFzRNiHO/b0cNvsR+fWVCZEI=,iv:nMUti1wM5gOyYgM5boamBDdXHawq7inMvtp9gfBqNsw=,tag:1ZioCyd0c4/y7YkeTRi3BA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.1
